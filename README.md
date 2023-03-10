@@ -1,10 +1,3 @@
----
-title: "HW_1_Practice"
-author: "Sergey Kuzivanov"
-date: "2023-03-10"
-output: html_document
----
-
 
 
 # Моделирование теоремы Гливенко-Кантелли
@@ -56,7 +49,6 @@ cdf_plot("N(0, 1)", pnorm, rnorm, 300)
 ```
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5-1.png)
-
 
 
 ```r

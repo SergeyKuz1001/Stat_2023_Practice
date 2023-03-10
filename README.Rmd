@@ -1,10 +1,3 @@
----
-title: "HW_1_Practice"
-author: "Sergey Kuzivanov"
-date: "`r Sys.Date()`"
-output: html_document
----
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -45,7 +38,6 @@ cdf_plot("N(0, 1)", pnorm, rnorm, 100)
 ```{r}
 cdf_plot("N(0, 1)", pnorm, rnorm, 300)
 ```
-
 
 ```{r}
 cdf_plot("N(0, 1)", pnorm, rnorm, 1000)
